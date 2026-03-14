@@ -1,15 +1,16 @@
 openapi: 3.1.0
 info:
-  # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: Open Brain MCP API specification
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: thoughts
+    description: Thought/idea management
 paths:
   /healthz:
     get:
@@ -24,6 +25,135 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /thoughts:
+    get:
+      operationId: listThoughts
+      tags: [thoughts]
+      summary: List all thoughts
+      description: Returns all captured thoughts/ideas
+      parameters:
+        - in: query
+          name: category
+          schema:
+            type: string
+          description: Filter by category
+        - in: query
+          name: search
+          schema:
+            type: string
+          description: Search by text
+      responses:
+        "200":
+          description: List of thoughts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Thought"
+    post:
+      operationId: createThought
+      tags: [thoughts]
+      summary: Create a new thought
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateThoughtInput"
+      responses:
+        "201":
+          description: Created thought
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Thought"
+  /thoughts/{id}:
+    get:
+      operationId: getThought
+      tags: [thoughts]
+      summary: Get a thought by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Thought
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Thought"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    put:
+      operationId: updateThought
+      tags: [thoughts]
+      summary: Update a thought
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateThoughtInput"
+      responses:
+        "200":
+          description: Updated thought
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Thought"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    delete:
+      operationId: deleteThought
+      tags: [thoughts]
+      summary: Delete a thought
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /categories:
+    get:
+      operationId: listCategories
+      tags: [thoughts]
+      summary: List all distinct categories
+      responses:
+        "200":
+          description: List of category strings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
 components:
   schemas:
     HealthStatus:
@@ -33,4 +163,67 @@ components:
           type: string
       required:
         - status
-
+    Thought:
+      type: object
+      properties:
+        id:
+          type: integer
+        content:
+          type: string
+        category:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        pinned:
+          type: boolean
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - content
+        - category
+        - tags
+        - pinned
+        - createdAt
+        - updatedAt
+    CreateThoughtInput:
+      type: object
+      properties:
+        content:
+          type: string
+        category:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        pinned:
+          type: boolean
+      required:
+        - content
+    UpdateThoughtInput:
+      type: object
+      properties:
+        content:
+          type: string
+        category:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        pinned:
+          type: boolean
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error

@@ -1,0 +1,12 @@
+packages:
+  "framer-motion": "For smooth, cerebral page transitions and card hover effects"
+  "date-fns": "For elegant date formatting on thoughts"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images: []
+
+notes:
+  - "Using provided @workspace/api-client-react generated hooks."
+  - "Wrapping generated mutations with automatic query invalidation."
+  - "Theme is dark, cerebral, using cyan/electric blue accents."
