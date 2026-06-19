@@ -1,0 +1,36 @@
+ID:
+
+TITLE:
+
+DOMAIN:
+
+AUTHORITY:
+candidate | certified
+
+STATUS:
+active | superseded | historical
+
+TYPE:
+CERTIFIED_TRUTH
+
+TAGS:
+
+EVIDENCE:
+
+TRUTH:
+
+MEANING:
+
+RULE:
+
+IMPACT:
+
+RELATED_TRUTHS:
+
+RELATED_SYSTEMS:
+
+RELATED_STAKEHOLDERS:
+
+SOURCE:
+
+TIMESTAMP:
