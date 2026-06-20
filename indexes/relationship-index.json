@@ -1,0 +1,146 @@
+[
+  {
+    "source": "DISC-ARCH-013",
+    "relationship": "SUPPORTS",
+    "target": "DISC-RUNTIME-001",
+    "file": "relationships/authority/REL-005.md"
+  },
+  {
+    "source": "DISC-ARCH-013",
+    "relationship": "RELATES_TO",
+    "target": "DISC-ARCH-012",
+    "file": "relationships/authority/REL-006.md"
+  },
+  {
+    "source": "DISC-ARCH-012",
+    "relationship": "CAUSES",
+    "target": "DISC-RUNTIME-002",
+    "file": "relationships/causes/REL-001.md"
+  },
+  {
+    "source": "DISC-ARCH-012",
+    "relationship": "CAUSES",
+    "target": "DISC-SBU-001",
+    "file": "relationships/causes/REL-002.md"
+  },
+  {
+    "source": "DISC-ARCH-012",
+    "relationship": "EXPLAINS",
+    "target": "Programs Schema Drift",
+    "file": "relationships/causes/REL-003.md"
+  },
+  {
+    "source": "DISC-ARCH-012",
+    "relationship": "EXPLAINS",
+    "target": "Admin Dashboard Drift",
+    "file": "relationships/causes/REL-004.md"
+  },
+  {
+    "source": "DISC-EXEC-001",
+    "relationship": "SUPPORTS",
+    "target": "DISC-GOV-001",
+    "file": "relationships/execution/REL-017.md"
+  },
+  {
+    "source": "DISC-GOV-004",
+    "relationship": "SUPPORTS",
+    "target": "DISC-EXEC-001",
+    "file": "relationships/execution/REL-018.md"
+  },
+  {
+    "source": "DISC-ARCH-012",
+    "relationship": "VALIDATES",
+    "target": "DISC-EXEC-001",
+    "file": "relationships/execution/REL-019.md"
+  },
+  {
+    "source": "DISC-GOV-001",
+    "relationship": "SUPPORTS",
+    "target": "DISC-RUNTIME-001",
+    "file": "relationships/governance/REL-007.md"
+  },
+  {
+    "source": "DISC-GOV-001",
+    "relationship": "SUPPORTS",
+    "target": "DISC-ARCH-013",
+    "file": "relationships/governance/REL-008.md"
+  },
+  {
+    "source": "DISC-GOV-001",
+    "relationship": "PREVENTS",
+    "target": "Assumption-Based Mutation",
+    "file": "relationships/governance/REL-009.md"
+  },
+  {
+    "source": "DISC-GOV-001",
+    "relationship": "SUPPORTS",
+    "target": "DISC-GOV-003",
+    "file": "relationships/governance/REL-011.md"
+  },
+  {
+    "source": "DISC-GOV-002",
+    "relationship": "SUPPORTS",
+    "target": "DISC-GOV-003",
+    "file": "relationships/governance/REL-012.md"
+  },
+  {
+    "source": "DISC-GOV-003",
+    "relationship": "PREVENTS",
+    "target": "Recovery Artifact Hoarding",
+    "file": "relationships/governance/REL-013.md"
+  },
+  {
+    "source": "DISC-GOV-004",
+    "relationship": "SUPPORTS",
+    "target": "DISC-GOV-001",
+    "file": "relationships/governance/REL-014.md"
+  },
+  {
+    "source": "DISC-GOV-003",
+    "relationship": "PREVENTS",
+    "target": "DISC-INFRA-001",
+    "file": "relationships/infrastructure/REL-015.md"
+  },
+  {
+    "source": "DISC-INFRA-001",
+    "relationship": "VALIDATES",
+    "target": "DISC-GOV-003",
+    "file": "relationships/infrastructure/REL-016.md"
+  },
+  {
+    "source": "DISC-OPENBRAIN-001",
+    "relationship": "PREVENTS",
+    "target": "Duplicate Semantic Objects",
+    "file": "relationships/open-brain/REL-024.md"
+  },
+  {
+    "source": "DISC-OPENBRAIN-001",
+    "relationship": "SUPPORTS",
+    "target": "DISC-GOV-005",
+    "file": "relationships/open-brain/REL-025.md"
+  },
+  {
+    "source": "DISC-OPENBRAIN-001",
+    "relationship": "SUPPORTS",
+    "target": "Knowledge Quality",
+    "file": "relationships/open-brain/REL-026.md"
+  },
+  {
+    "source": "DISC-RUNTIME-002",
+    "relationship": "VALIDATES",
+    "target": "DISC-EXEC-001",
+    "file": "relationships/runtime/REL-021.md"
+  },
+  {
+    "source": "DISC-RUNTIME-002",
+    "relationship": "SUPPORTS",
+    "target": "DISC-GOV-001",
+    "file": "relationships/runtime/REL-022.md"
+  },
+  {
+    "source": "DISC-RUNTIME-002",
+    "relationship": "RELATED_TO",
+    "target": "DISC-RUNTIME-001",
+    "file": "relationships/runtime/REL-023.md"
+  }
+]
