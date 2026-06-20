@@ -1,0 +1,125 @@
+[
+  {
+    "file": "truths/certified/DISC-ARCH-012.md"
+  },
+  {
+    "file": "truths/certified/DISC-ARCH-013.md"
+  },
+  {
+    "file": "truths/certified/DISC-EXEC-001.md"
+  },
+  {
+    "file": "truths/certified/DISC-GOV-001.md"
+  },
+  {
+    "file": "truths/certified/DISC-GOV-003.md"
+  },
+  {
+    "file": "truths/certified/DISC-GOV-004.md"
+  },
+  {
+    "file": "truths/certified/DISC-GOV-005.md"
+  },
+  {
+    "file": "truths/certified/DISC-INFRA-001.md"
+  },
+  {
+    "file": "truths/certified/DISC-OPENBRAIN-001.md"
+  },
+  {
+    "file": "truths/certified/DISC-RUNTIME-001.md"
+  },
+  {
+    "file": "truths/certified/DISC-RUNTIME-002.md"
+  },
+  {
+    "file": "truths/certified/DISC-RUNTIME-003.md"
+  },
+  {
+    "file": "lessons/execution/DISC-EXEC-001-APPLICATION.md"
+  },
+  {
+    "file": "lessons/execution/LESSON-EXEC-002-INSTRUCTION-VS-EXECUTABLE.md"
+  },
+  {
+    "file": "decisions/open-brain/DEC-OPENBRAIN-001.md"
+  },
+  {
+    "file": "decisions/open-brain/DEC-OPENBRAIN-002.md"
+  },
+  {
+    "file": "relationships/README.md"
+  },
+  {
+    "file": "relationships/authority/REL-005.md"
+  },
+  {
+    "file": "relationships/authority/REL-006.md"
+  },
+  {
+    "file": "relationships/causes/REL-001.md"
+  },
+  {
+    "file": "relationships/causes/REL-002.md"
+  },
+  {
+    "file": "relationships/causes/REL-003.md"
+  },
+  {
+    "file": "relationships/causes/REL-004.md"
+  },
+  {
+    "file": "relationships/execution/REL-017.md"
+  },
+  {
+    "file": "relationships/execution/REL-018.md"
+  },
+  {
+    "file": "relationships/execution/REL-019.md"
+  },
+  {
+    "file": "relationships/governance/REL-007.md"
+  },
+  {
+    "file": "relationships/governance/REL-008.md"
+  },
+  {
+    "file": "relationships/governance/REL-009.md"
+  },
+  {
+    "file": "relationships/governance/REL-011.md"
+  },
+  {
+    "file": "relationships/governance/REL-012.md"
+  },
+  {
+    "file": "relationships/governance/REL-013.md"
+  },
+  {
+    "file": "relationships/governance/REL-014.md"
+  },
+  {
+    "file": "relationships/infrastructure/REL-015.md"
+  },
+  {
+    "file": "relationships/infrastructure/REL-016.md"
+  },
+  {
+    "file": "relationships/open-brain/REL-024.md"
+  },
+  {
+    "file": "relationships/open-brain/REL-025.md"
+  },
+  {
+    "file": "relationships/open-brain/REL-026.md"
+  },
+  {
+    "file": "relationships/runtime/REL-021.md"
+  },
+  {
+    "file": "relationships/runtime/REL-022.md"
+  },
+  {
+    "file": "relationships/runtime/REL-023.md"
+  }
+]
