@@ -12,7 +12,8 @@
     "brain:capture-lesson": "tsx scripts/brain-capture-lesson.ts",
     "brain:index-authority": "tsx scripts/indexing/build-authority-index.ts",
     "brain:search-authority": "tsx scripts/search/search-authority.ts",
-    "brain:index-relationships": "tsx scripts/indexing/build-relationship-index.ts"
+    "brain:index-relationships": "tsx scripts/indexing/build-relationship-index.ts",
+    "brain:traverse": "tsx scripts/graph/traverse.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.5.0",
