@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "id": "DISC-GOV-006",
+      "title": "Discovery Isolation Gate",
+      "phase": "Discovery",
+      "priority": 10,
+      "requires": [],
+      "authorizes_mutation": false
+    },
+    {
+      "id": "DISC-GOV-007",
+      "title": "Authority Before Construction",
+      "phase": "Discovery",
+      "priority": 20,
+      "requires": [
+        "authority_search"
+      ],
+      "authorizes_mutation": false
+    },
+    {
+      "id": "DISC-GOV-008",
+      "title": "Orphaned Authority Detection",
+      "phase": "Discovery",
+      "priority": 30,
+      "requires": [
+        "authority_exists",
+        "invocation_analysis"
+      ],
+      "authorizes_mutation": false
+    },
+    {
+      "id": "DISC-GOV-009",
+      "title": "Contract Authority Before Mutation",
+      "phase": "Design",
+      "priority": 40,
+      "requires": [
+        "authority_contract",
+        "invocation_contract",
+        "runtime_contract"
+      ],
+      "authorizes_mutation": false
+    },
+    {
+      "id": "DISC-GOV-010",
+      "title": "Contract Dependency Certification",
+      "phase": "Design",
+      "priority": 50,
+      "requires": [
+        "dependency_chain"
+      ],
+      "authorizes_mutation": false
+    },
+    {
+      "id": "DISC-GOV-011",
+      "title": "Runtime Semantics Override Historical Design Assumptions",
+      "phase": "Discovery",
+      "priority": 60,
+      "requires": [
+        "runtime_evidence"
+      ],
+      "authorizes_mutation": false
+    },
+    {
+      "id": "DISC-GOV-012",
+      "title": "Bounded Evidence Acquisition",
+      "phase": "Discovery",
+      "priority": 70,
+      "requires": [
+        "bounded_evidence"
+      ],
+      "authorizes_mutation": false
+    }
+  ]
+}
