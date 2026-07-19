@@ -1,0 +1,13 @@
+{
+  "authority": "FAMP-001",
+  "status": "READY_FOR_IMPLEMENTATION",
+  "generator_target": "/home/runner/workspace/Lambsbook-Open-Brain/execution/packages/FAMP-001/generated",
+  "generation_order": [
+    "governance artifacts",
+    "registry updates",
+    "cross-reference updates",
+    "verification evidence",
+    "certification evidence"
+  ],
+  "publication": "Deferred until Founder verification"
+}

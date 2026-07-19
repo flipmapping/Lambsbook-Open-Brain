@@ -1,0 +1,41 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "READY_FOR_SEMANTIC_IMPLEMENTATION",
+  "repository_truth": {
+    "generator_executes": true,
+    "publication_performed": false,
+    "runtime_mutation": false,
+    "placeholder_artifacts_detected": true
+  },
+  "required_generator_outputs": [
+    {
+      "artifact": "EOS-CON-000.md",
+      "content": "Execution Surface Principle"
+    },
+    {
+      "artifact": "EOS-CON-004.md",
+      "content": "Constitutional Publication Rule"
+    },
+    {
+      "artifact": "EOS-CON-005.md",
+      "content": "Constitutional Service Consumption Rule"
+    },
+    {
+      "artifact": "EXEC-DIR-EOS-011.md",
+      "content": "Surface-Based Repository Mutation Doctrine"
+    },
+    {
+      "artifact": "EXEC-DIR-EOS-012.md",
+      "content": "Concurrent Surface Governance Doctrine"
+    },
+    {
+      "artifact": "EXEC-DIR-EOS-013.md",
+      "content": "Surface Registry Constitutional Doctrine"
+    },
+    {
+      "artifact": "CERTIFICATION-EVIDENCE.md",
+      "content": "Generation and verification evidence"
+    }
+  ],
+  "next_mutation": "Upgrade repository_mutation_package.py to generate unique semantic artifacts into generated/."
+}

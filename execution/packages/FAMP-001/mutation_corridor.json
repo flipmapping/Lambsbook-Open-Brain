@@ -1,0 +1,22 @@
+{
+  "implementation_authority": "FAMP-001",
+  "surface": "Founder Asset Materialization Platform",
+  "status": "CERTIFIED",
+  "classification": "Single Bounded Repository Surface",
+  "approved_mutation_corridors": [
+    "governance/",
+    "execution/",
+    "templates/"
+  ],
+  "prohibited_mutation_corridors": [
+    "runtime/",
+    "application/",
+    ".git/"
+  ],
+  "constraints": {
+    "runtime_mutation": false,
+    "application_mutation": false,
+    "git_operations": false
+  },
+  "next_authorized_step": "Generate Surface Mutation Package for FAMP-001"
+}

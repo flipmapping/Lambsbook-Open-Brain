@@ -1,0 +1,42 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "GENERATION_CERTIFIED",
+  "artifact_count": 7,
+  "artifacts": [
+    {
+      "name": "CERTIFICATION-EVIDENCE.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    },
+    {
+      "name": "EOS-CON-000.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    },
+    {
+      "name": "EOS-CON-004.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    },
+    {
+      "name": "EOS-CON-005.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    },
+    {
+      "name": "EXEC-DIR-EOS-011.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    },
+    {
+      "name": "EXEC-DIR-EOS-012.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    },
+    {
+      "name": "EXEC-DIR-EOS-013.md",
+      "bytes": 65,
+      "sha256": "cbffeea4233d78d41fd626c4523f58055da1a5e23a89348ef0ab5f436011a6fc"
+    }
+  ]
+}

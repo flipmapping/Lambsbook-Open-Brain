@@ -1,0 +1,12 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "REPOSITORY_TRUTH_CAPTURED",
+  "generator": {
+    "path": "execution/packages/FAMP-001/repository_mutation_package.py",
+    "sha256": "88f19ae3c5cf4db12548ae17bd2f25d47ecb51a1d0eadf7c8bb8c871d0d49b01",
+    "asset_directory_supported": true,
+    "generated_workspace_supported": true,
+    "publication_plan_supported": false,
+    "registry_consumption_supported": false
+  }
+}

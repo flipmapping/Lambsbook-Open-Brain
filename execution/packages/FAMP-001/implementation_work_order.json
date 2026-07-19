@@ -1,0 +1,15 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "READY_FOR_IMPLEMENTATION",
+  "timestamp_utc": "2026-07-14T08:22:31.428251+00:00",
+  "target": "repository_mutation_package.py",
+  "mutation_scope": [
+    "Consume generation_context_contract.json",
+    "Consume publication_generation_plan.json",
+    "Preserve asset-aware generation",
+    "Preserve backward compatibility",
+    "Generate publication artifacts into generated/",
+    "Emit deterministic diagnostics on missing inputs"
+  ],
+  "rollback_checkpoint": "generator_implementation_checkpoint.json"
+}

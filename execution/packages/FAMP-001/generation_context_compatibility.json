@@ -1,0 +1,16 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "COMPATIBILITY_VERIFIED",
+  "required_inputs": [
+    "assets/",
+    "generated/",
+    "publication_generation_plan.json"
+  ],
+  "available_inputs": [
+    "assets/",
+    "generated/",
+    "publication_generation_plan.json"
+  ],
+  "missing_inputs": [],
+  "work_items": 1
+}

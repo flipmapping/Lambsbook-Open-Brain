@@ -1,0 +1,25 @@
+{
+  "implementation_authority": "FAMP-001",
+  "surface": "Founder Asset Materialization Platform",
+  "status": "READY",
+  "classification": "Surface Mutation Package",
+  "execution_model": "Single Bounded Repository Surface",
+  "governance_scope": [
+    "Authority Registry integration",
+    "Surface Registry integration",
+    "Sprint Factory integration",
+    "Builder published-contract integration",
+    "Founder Asset Materialization Platform governance"
+  ],
+  "deliverables": [
+    "surface_mutation_package.py",
+    "surface_manifest.json",
+    "surface_generation_plan.md"
+  ],
+  "constraints": {
+    "runtime_mutation": false,
+    "application_mutation": false,
+    "git_operations": false
+  },
+  "next_authorized_step": "Generate bounded governance artifacts into the package workspace."
+}

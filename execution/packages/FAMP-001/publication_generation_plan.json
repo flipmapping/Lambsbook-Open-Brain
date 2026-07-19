@@ -1,0 +1,15 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "READY_FOR_GENERATION",
+  "generated_workspace": "/home/runner/workspace/Lambsbook-Open-Brain/execution/packages/FAMP-001/generated",
+  "resolved_at_utc": "2026-07-14T07:19:10.089737+00:00",
+  "work_items": [
+    {
+      "publication_id": "EXEC-SYNC-EOS-BASELINE-v2.2",
+      "delta_source": "execution/packages/EXEC-SYNC-EOS-BASELINE-v2.2/publication_delta.json",
+      "output_file": "EXEC-SYNC-EOS-BASELINE-v2.2.md",
+      "generation_mode": "ASSET_MATERIALIZATION",
+      "publication_authorized": false
+    }
+  ]
+}

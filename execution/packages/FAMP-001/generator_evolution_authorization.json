@@ -1,0 +1,12 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "AUTHORIZED",
+  "authorized_mutation": "repository_mutation_package.py",
+  "reason": "Repository Truth confirms generation context consumption is not implemented.",
+  "consume_contract": "generation_context_contract.json",
+  "consume_plan": "publication_generation_plan.json",
+  "publication": false,
+  "runtime_mutation": false,
+  "git_operations": false,
+  "authorized_utc": "2026-07-14T08:11:01.452573+00:00"
+}

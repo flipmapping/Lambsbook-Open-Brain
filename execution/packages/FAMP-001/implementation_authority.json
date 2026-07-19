@@ -1,0 +1,21 @@
+{
+  "implementation_authority": "FAMP-001",
+  "title": "Founder Asset Materialization Platform",
+  "classification": "Constitutional Implementation Authority",
+  "status": "FOUNDER_APPROVED",
+  "repository": "Lambsbook-Open-Brain",
+  "surface": "Founder Asset Materialization Platform",
+  "execution_model": "Single Bounded Repository Surface",
+  "objective": "Materialize the constitutional subsystem responsible for transforming immutable Founder-approved assets into certified repository assets.",
+  "constraints": {
+    "runtime_mutation": false,
+    "application_mutation": false,
+    "git_operations": false
+  },
+  "integration_targets": [
+    "Authority Registry",
+    "Surface Registry",
+    "Sprint Factory",
+    "Builder Runtime (published contracts only)"
+  ]
+}

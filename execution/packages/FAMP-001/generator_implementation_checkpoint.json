@@ -1,0 +1,12 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "IMPLEMENTATION_CHECKPOINT",
+  "timestamp_utc": "2026-07-14T08:13:52.684297+00:00",
+  "target_file": "execution/packages/FAMP-001/repository_mutation_package.py",
+  "backup_file": "execution/packages/FAMP-001/checkpoints/repository_mutation_package.before_generation_context.py",
+  "sha256_before_mutation": "88f19ae3c5cf4db12548ae17bd2f25d47ecb51a1d0eadf7c8bb8c871d0d49b01",
+  "next_mutation": "Extend repository_mutation_package.py to consume generation_context_contract.json and publication_generation_plan.json while preserving existing asset generation behaviour.",
+  "publication": false,
+  "runtime_mutation": false,
+  "git_operations": false
+}

@@ -1,0 +1,21 @@
+{
+  "implementation_authority": "FAMP-001",
+  "surface": "Founder Asset Materialization Platform",
+  "repository": "Lambsbook-Open-Brain",
+  "repository_truth": "CERTIFIED",
+  "candidate_mutation_corridors": [
+    {
+      "path": "governance",
+      "type": "directory"
+    },
+    {
+      "path": "execution",
+      "type": "directory"
+    },
+    {
+      "path": "templates",
+      "type": "directory"
+    }
+  ],
+  "next_step": "Founder approval of bounded mutation corridor"
+}

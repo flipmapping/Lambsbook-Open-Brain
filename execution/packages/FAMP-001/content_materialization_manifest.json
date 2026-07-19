@@ -1,0 +1,36 @@
+{
+  "implementation_authority": "FAMP-001",
+  "surface": "Founder Asset Materialization Platform",
+  "status": "READY_FOR_CONTENT_MATERIALIZATION",
+  "publication": "NOT_AUTHORIZED",
+  "artifacts": [
+    {
+      "file": "EOS-CON-000.md",
+      "status": "REPLACE_STUB_WITH_FOUNDER_APPROVED_CONTENT"
+    },
+    {
+      "file": "EOS-CON-004.md",
+      "status": "REPLACE_STUB_WITH_FOUNDER_APPROVED_CONTENT"
+    },
+    {
+      "file": "EOS-CON-005.md",
+      "status": "REPLACE_STUB_WITH_FOUNDER_APPROVED_CONTENT"
+    },
+    {
+      "file": "EXEC-DIR-EOS-011.md",
+      "status": "REPLACE_STUB_WITH_FOUNDER_APPROVED_CONTENT"
+    },
+    {
+      "file": "EXEC-DIR-EOS-012.md",
+      "status": "REPLACE_STUB_WITH_FOUNDER_APPROVED_CONTENT"
+    },
+    {
+      "file": "EXEC-DIR-EOS-013.md",
+      "status": "REPLACE_STUB_WITH_FOUNDER_APPROVED_CONTENT"
+    },
+    {
+      "file": "CERTIFICATION-EVIDENCE.md",
+      "status": "GENERATE_FINAL_CERTIFICATION_AFTER_CONTENT_VALIDATION"
+    }
+  ]
+}

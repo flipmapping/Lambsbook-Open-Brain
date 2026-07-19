@@ -1,0 +1,21 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "FROZEN",
+  "created_utc": "2026-07-14T08:48:37.475022+00:00",
+  "target_file": "repository_mutation_package.py",
+  "implementation_steps": [
+    "Load generation_context_contract.json",
+    "Load publication_generation_plan.json",
+    "Resolve work items deterministically",
+    "Load Founder assets when present",
+    "Fallback to placeholder generation when assets are absent",
+    "Emit publication artifacts only into generated/",
+    "Produce deterministic diagnostics"
+  ],
+  "non_functional_constraints": {
+    "repository_publication": false,
+    "runtime_mutation": false,
+    "git_operations": false,
+    "backward_compatibility": true
+  }
+}

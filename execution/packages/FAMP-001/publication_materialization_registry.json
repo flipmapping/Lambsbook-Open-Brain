@@ -1,0 +1,26 @@
+{
+  "implementation_authority": "FAMP-001",
+  "status": "READY",
+  "publication_requests": [
+    {
+      "publication_id": "EXEC-SYNC-EOS-BASELINE-v2.2",
+      "delta_source": "execution/packages/EXEC-SYNC-EOS-BASELINE-v2.2/publication_delta.json",
+      "materialization_target": "execution/packages/FAMP-001/generated/EXEC-SYNC-EOS-BASELINE-v2.2.md",
+      "status": "READY_FOR_MATERIALIZATION",
+      "registered_utc": "2026-07-14T07:14:52.846552+00:00"
+    },
+    {
+      "publication_id": "EXEC-DIR-EOS-015",
+      "type": "template_materialization",
+      "target": "canonical_execution_templates",
+      "generated_outputs": [
+        "Implementation Authority Template",
+        "IAS Template",
+        "Certified Builder Input Set Template",
+        "Builder Package Template",
+        "Repository Mutation Package Template",
+        "Founder Execution Package Template"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "implementation_authority": "FAMP-001",
+  "contract": "Generation Context",
+  "status": "READY",
+  "created_utc": "2026-07-14T08:08:40.014176+00:00",
+  "purpose": "Define the deterministic execution context consumed by the Repository Mutation Package.",
+  "required_inputs": [
+    "publication_generation_plan.json",
+    "assets/",
+    "generated/"
+  ],
+  "responsibilities": {
+    "resolver": [
+      "Load publication generation plan",
+      "Resolve requested work items",
+      "Validate required assets",
+      "Produce generation context"
+    ],
+    "generator": [
+      "Consume generation context",
+      "Materialize generated artifacts",
+      "Emit certification evidence"
+    ]
+  },
+  "publication": false,
+  "runtime_mutation": false,
+  "git_operations": false
+}
