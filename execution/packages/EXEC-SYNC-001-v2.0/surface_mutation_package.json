@@ -1,0 +1,21 @@
+{
+  "implementation_authority": "EXEC-SYNC-001-v2.0",
+  "status": "READY",
+  "surface": "Constitutional Baseline Synchronization",
+  "repository": "Lambsbook-Open-Brain",
+  "mutation_type": "governance_only",
+  "repository_truth_required": true,
+  "deliverables": [
+    "EXEC-SYNC-001-v2.0.md",
+    "Baseline Version Model",
+    "Synchronization Lifecycle",
+    "Synchronization Registry Update",
+    "Execution Startup Synchronization Update",
+    "Cross-reference Verification",
+    "Certification Evidence"
+  ],
+  "publication": {
+    "generated_workspace_only": true,
+    "publish_to_repository": false
+  }
+}

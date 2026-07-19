@@ -1,0 +1,31 @@
+{
+  "synchronization": "EXEC-SYNC-EOS-BASELINE-v2.2",
+  "status": "FOUNDER_APPROVED",
+  "timestamp_utc": "2026-07-14T07:06:59.128299+00:00",
+  "supersedes": [
+    "BLD-RMP-002"
+  ],
+  "adds": [
+    "BLD-CAR-001"
+  ],
+  "builder_constitutional_evolution": {
+    "architectural_contract": "Builder SHALL resolve, validate, and package every constitutional authority explicitly declared by the Certified Builder Input Set.",
+    "builder_shall": [
+      "Resolve declared constitutional authorities",
+      "Validate declared authority existence",
+      "Package authorities unchanged",
+      "Preserve authority lineage",
+      "Record packaged authorities in PACKAGE-MANIFEST.md",
+      "Remain deterministic",
+      "Remain backward compatible"
+    ],
+    "builder_shall_not": [
+      "Interpret authority",
+      "Infer authority",
+      "Synthesize authority",
+      "Modify authority",
+      "Maintain a hard-coded authority catalogue"
+    ],
+    "future_evolution": "Future constitutional authorities SHALL be introduced through constitutional governance and CBIS declarations without requiring Builder implementation changes."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "publication_target": "EXEC-SYNC-EOS-BASELINE-v2.2.md",
+  "status": "READY_FOR_MATERIALIZATION",
+  "timestamp_utc": "2026-07-14T07:11:07.723098+00:00",
+  "changes": [
+    {
+      "operation": "replace",
+      "old_reference": "BLD-RMP-002",
+      "new_reference": "BLD-CAR-001"
+    },
+    {
+      "operation": "append",
+      "section": "Builder Constitutional Evolution",
+      "description": "Builder becomes a Constitutional Authority Resolver consuming declared constitutional authorities through CBIS."
+    }
+  ],
+  "publication": false,
+  "runtime_mutation": false,
+  "git_operations": false
+}

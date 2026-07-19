@@ -1,0 +1,11 @@
+{
+  "standard": "Synchronization Authority",
+  "constitutional_model": "Standard -> Schema -> Instance",
+  "status": "READY",
+  "purpose": "Defines the canonical structure used by all future constitutional synchronization authorities.",
+  "future_instances": [
+    "EXEC-SYNC-001",
+    "EXEC-SYNC-BOQ-001",
+    "EXEC-SYNC-EOS-BASELINE-v2.2"
+  ]
+}

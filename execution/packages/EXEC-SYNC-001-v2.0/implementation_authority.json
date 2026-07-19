@@ -1,0 +1,12 @@
+{
+  "implementation_authority": "EXEC-SYNC-001-v2.0",
+  "title": "Constitutional Baseline Synchronization",
+  "classification": "Execution Governance Synchronization",
+  "status": "FOUNDER_APPROVED",
+  "repository": "Lambsbook-Open-Brain",
+  "surface": "Constitutional Baseline Synchronization",
+  "objective": "Materialize EXEC-SYNC-001 v2.0 as the constitutional synchronization protocol for the EOS.",
+  "mutation_type": "governance_only",
+  "runtime_mutation": false,
+  "git_operations": false
+}

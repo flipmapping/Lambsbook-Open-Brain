@@ -1,0 +1,26 @@
+{
+  "implementation_authority": "EXEC-SYNC-EOS-BASELINE-v2.2",
+  "title": "EOS Constitutional Baseline v2.2 Materialization",
+  "classification": "Constitutional Governance Synchronization",
+  "status": "FOUNDER_APPROVED",
+  "repository": "Lambsbook-Open-Brain",
+  "surface": "EOS Constitutional Baseline v2.2",
+  "execution_model": "Single Bounded Repository Surface",
+  "objective": "Materialize EOS Constitutional Baseline v2.2 as one constitutional synchronization package.",
+  "scope": [
+    "EOS-EXEC-014A",
+    "Experience Knowledge Layer (EKL)",
+    "Standard \u2192 Schema \u2192 Instance model",
+    "IAS template synchronization",
+    "Builder packaging roadmap",
+    "Open Brain synchronization",
+    "Constitutional Baseline v2.2 publication"
+  ],
+  "constraints": {
+    "governance_only": true,
+    "runtime_mutation": false,
+    "git_operations": false,
+    "builder_changes": "ROADMAP_ONLY",
+    "active_authorities_continue": true
+  }
+}

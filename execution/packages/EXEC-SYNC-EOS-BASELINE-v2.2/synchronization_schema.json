@@ -1,0 +1,27 @@
+{
+  "schema": "Synchronization Authority Schema",
+  "derived_from": "Synchronization Authority Standard",
+  "constitutional_model": "Standard -> Schema -> Instance",
+  "status": "READY",
+  "required_sections": [
+    "Metadata",
+    "Purpose",
+    "Synchronization Trigger",
+    "Synchronization Scope",
+    "Affected Authorities",
+    "Affected Standards",
+    "Affected Services",
+    "Affected Registries",
+    "Adoption Policy",
+    "Execution Continuation Rule",
+    "Cross Reference Verification",
+    "Certification Evidence"
+  ],
+  "required_metadata": [
+    "authority",
+    "classification",
+    "status",
+    "effective",
+    "baseline_version"
+  ]
+}

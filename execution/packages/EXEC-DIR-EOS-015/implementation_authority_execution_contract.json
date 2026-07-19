@@ -1,0 +1,18 @@
+{
+  "implementation_authority": "EXEC-DIR-EOS-015",
+  "title": "Implementation Authority Execution Contract",
+  "classification": "Constitutional Execution Standard",
+  "status": "FOUNDER_APPROVED",
+  "constitutional_baseline": "EOS Constitutional Baseline v2.2.x",
+  "purpose": "Define the canonical execution contract consumed by all Implementation Authority generation pipelines.",
+  "mandatory_sections": 9,
+  "consumers": [
+    "Implementation Authority Template",
+    "Implementation Authority Authoring (IAS)",
+    "Certified Builder Input Set",
+    "Builder Package Templates",
+    "Repository Mutation Package Templates",
+    "Founder Execution Package Templates"
+  ],
+  "created_utc": "2026-07-14T09:46:39.866280+00:00"
+}
