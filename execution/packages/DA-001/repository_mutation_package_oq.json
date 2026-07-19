@@ -1,0 +1,65 @@
+{
+  "implementation_authority": "DA-001",
+  "qualification": "OPERATIONAL_QUALIFIED",
+  "generator_contract_verified": true,
+  "publication_performed": false,
+  "runtime_mutation": false,
+  "git_operations": false,
+  "verified_artifacts": [
+    {
+      "artifact": "DA-001-DESIGN-AUTHORITY.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "DA-MANIFEST.schema.yaml",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "VISUAL.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "LAYOUT.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "MOTION.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "BRAND.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "AI-GENERATION.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "DESIGN-CONSTRAINTS.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "TOKENS.schema.yaml",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "DESIGN-PROVENANCE.schema.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    },
+    {
+      "artifact": "CERTIFICATION-EVIDENCE.md",
+      "bytes": 35,
+      "sha256": "b0426b6fdcd4f39590517c42996651f9d353a77ce1097bb9cfae211858ac132d"
+    }
+  ]
+}

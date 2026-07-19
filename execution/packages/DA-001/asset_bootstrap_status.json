@@ -1,0 +1,8 @@
+{
+  "implementation_authority": "DA-001",
+  "bootstrap_asset": "DA-001-DESIGN-AUTHORITY.md",
+  "status": "BOOTSTRAPPED",
+  "publication": false,
+  "runtime_mutation": false,
+  "git_operations": false
+}

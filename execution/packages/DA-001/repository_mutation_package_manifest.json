@@ -1,0 +1,38 @@
+{
+  "implementation_authority": "DA-001",
+  "repository": "Lambsbook-Open-Brain",
+  "surface": "Design Authority",
+  "status": "READY",
+  "package_type": "Repository Mutation Package",
+  "generator": {
+    "entrypoint": "repository_mutation_package.py",
+    "language": "python",
+    "generated_workspace": "generated/"
+  },
+  "execution_constraints": {
+    "repository_publication": false,
+    "runtime_mutation": false,
+    "git_operations": false
+  },
+  "inputs": [
+    "implementation_authority.json",
+    "repository_truth.json",
+    "mutation_corridor.json",
+    "surface_mutation_package.json",
+    "repository_mutation_package_spec.json"
+  ],
+  "expected_outputs": [
+    "generated/DA-001-DESIGN-AUTHORITY.md",
+    "generated/DA-MANIFEST.schema.yaml",
+    "generated/VISUAL.schema.md",
+    "generated/LAYOUT.schema.md",
+    "generated/MOTION.schema.md",
+    "generated/BRAND.schema.md",
+    "generated/AI-GENERATION.schema.md",
+    "generated/DESIGN-CONSTRAINTS.schema.md",
+    "generated/TOKENS.schema.yaml",
+    "generated/DESIGN-PROVENANCE.schema.md",
+    "generated/CERTIFICATION-EVIDENCE.md"
+  ],
+  "created_at_utc": "2026-07-14T02:04:03.982363+00:00"
+}

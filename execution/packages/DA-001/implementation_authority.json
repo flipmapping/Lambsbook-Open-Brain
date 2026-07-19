@@ -1,0 +1,13 @@
+{
+  "implementation_authority": "DA-001",
+  "title": "Design Authority",
+  "classification": "Constitutional Bounded Context",
+  "status": "FOUNDER_APPROVED",
+  "repository": "Lambsbook-Open-Brain",
+  "surface": "Design Authority",
+  "constitutional_baseline": "EOS Constitutional Baseline v2.2",
+  "objective": "Materialize the Design Authority constitutional bounded context, its Standard \u2192 Schema \u2192 Instance model, Design Provenance, Design Qualification, and FAMP integration.",
+  "mutation_type": "governance_only",
+  "runtime_mutation": false,
+  "git_operations": false
+}

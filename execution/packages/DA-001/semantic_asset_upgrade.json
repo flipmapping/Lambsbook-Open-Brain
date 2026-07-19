@@ -1,0 +1,12 @@
+{
+  "implementation_authority": "DA-001",
+  "status": "READY",
+  "upgrade": "SEMANTIC_ASSET_CONSUMPTION",
+  "current_state": "PLACEHOLDER_GENERATION",
+  "target_state": "FOUNDER_ASSET_GENERATION",
+  "asset_directory": "assets/",
+  "fallback_behavior": "Generate placeholder only when approved asset is absent",
+  "publication": false,
+  "runtime_mutation": false,
+  "git_operations": false
+}

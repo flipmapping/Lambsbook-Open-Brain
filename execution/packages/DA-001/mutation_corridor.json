@@ -1,0 +1,32 @@
+{
+  "implementation_authority": "DA-001",
+  "status": "CERTIFIED",
+  "surface": "Design Authority",
+  "classification": "Single Bounded Repository Surface",
+  "repository": "Lambsbook-Open-Brain",
+  "repository_truth": {
+    "existing_corridors": [
+      "governance/registry",
+      "execution/packages",
+      "templates"
+    ],
+    "new_corridor_required": true
+  },
+  "approved_mutation_corridor": {
+    "target_path": "governance/design/",
+    "exists_at_truth_capture": false,
+    "creation_authorized_by_this_surface": true,
+    "purpose": "Materialize the constitutional Design Authority bounded context under EOS Constitutional Baseline v2.2."
+  },
+  "mutation_scope": [
+    "Design Authority Standard",
+    "Design Authority Schemas",
+    "Design Authority Instances",
+    "Design Provenance",
+    "Design Token Schema",
+    "Design Qualification",
+    "FAMP integration references"
+  ],
+  "runtime_mutation": false,
+  "git_operations": false
+}

@@ -1,0 +1,25 @@
+{
+  "implementation_authority": "DA-001",
+  "status": "REPOSITORY_TRUTH_CAPTURED",
+  "repository": "Lambsbook-Open-Brain",
+  "constitutional_baseline": "EOS Constitutional Baseline v2.2",
+  "captured_at_utc": "2026-07-14T01:50:41.669612+00:00",
+  "bounded_surface": "Design Authority",
+  "repository_identity_verified": true,
+  "candidate_mutation_corridors": [
+    "governance/design",
+    "governance/registry",
+    "execution/packages",
+    "templates"
+  ],
+  "existing_paths": [
+    "governance/registry",
+    "execution/packages",
+    "templates"
+  ],
+  "missing_paths": [
+    "governance/design"
+  ],
+  "runtime_mutation": false,
+  "git_operations": false
+}
