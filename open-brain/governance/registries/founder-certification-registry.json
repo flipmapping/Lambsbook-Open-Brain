@@ -1,0 +1,12 @@
+{
+  "certifications": [
+    {
+      "id": "FTB-001",
+      "status": "CERTIFIED",
+      "authority": "MEX-001",
+      "product_materialization": "ACTIVE",
+      "successor": "MEX-EXEC-001",
+      "timestamp": "2026-07-19T03:35:06.585560+00:00"
+    }
+  ]
+}

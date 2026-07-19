@@ -1,0 +1,13 @@
+{
+  "architectures": [
+    {
+      "authority": "MEX-001",
+      "status": "CANONICAL",
+      "certification": "CERTIFIED",
+      "lifecycle": "READ-ONLY",
+      "product_materialization": "ACTIVE",
+      "successor": "MEX-EXEC-001",
+      "single_source_of_truth": "open-brain/architecture/member-experience/MEX-001-CANONICAL.md"
+    }
+  ]
+}
