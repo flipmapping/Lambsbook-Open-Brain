@@ -1,0 +1,9 @@
+{
+  "decision_id": "BLD-ARCH-002",
+  "title": "Builder Runtime & Governance Separation",
+  "status": "founder_approved",
+  "authority": "Standing Execution Authority",
+  "governance_repository": "OB-001",
+  "runtime_repository": "APP-001",
+  "created": "2026-07-09T14:39:10.206982Z"
+}
