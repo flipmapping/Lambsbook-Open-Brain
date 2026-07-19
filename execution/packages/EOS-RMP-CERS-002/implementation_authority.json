@@ -1,0 +1,14 @@
+{
+  "implementation_authority": "EXEC-BRIEF-EOS-CONSTITUTION-001",
+  "classification": "Constitutional Governance Sprint",
+  "repository": "Lambsbook-Open-Brain",
+  "bounded_surface": "Constitutional Surface Governance",
+  "supersedes_as_execution_brief": [
+    "EXEC-DIR-EOS-011",
+    "EXEC-DIR-EOS-012",
+    "EXEC-DIR-EOS-013"
+  ],
+  "lineage_preserved": true,
+  "next_successor": "ESR-001",
+  "status": "READY"
+}

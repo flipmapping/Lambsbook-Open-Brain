@@ -1,0 +1,30 @@
+{
+  "authority": "EOS-RMP-CERS-002",
+  "repository": "Lambsbook-Open-Brain",
+  "classification": "Governance Synchronization",
+  "execution_model": "Repository Mutation Package",
+  "status": "READY",
+  "mutations": [
+    "OB-ASL-002-v2.0",
+    "Authority Registry promotion",
+    "Authority Specification Layer promotion",
+    "Sprint Factory governance update",
+    "Builder governance synchronization",
+    "Claude synchronization",
+    "Repository synchronization",
+    "Truth hierarchy refinement",
+    "Authority Resolution Invariant",
+    "Execution handoff doctrine",
+    "Parallel execution doctrine",
+    "Authority selection doctrine",
+    "Sprint Factory services",
+    "Execution Startup Synchronization update",
+    "Cross-reference verification",
+    "Certification update"
+  ],
+  "constraints": {
+    "runtime_mutation": false,
+    "application_mutation": false,
+    "git_operations": false
+  }
+}

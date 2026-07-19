@@ -1,0 +1,8 @@
+{
+  "authority": "FDR-010E34B",
+  "implementation_authority": "EXEC-BRIEF-EOS-CONSTITUTION-001",
+  "surface": "Constitutional Surface Governance",
+  "status": "READY_FOR_MATERIALIZATION",
+  "execution_mode": "Single Bounded Repository Surface",
+  "next_step": "Materialize governance artifacts into generated workspace"
+}

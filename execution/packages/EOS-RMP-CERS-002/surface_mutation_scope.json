@@ -1,0 +1,24 @@
+{
+  "authority": "EXEC-DIR-MAT-EOS-CSG-001",
+  "surface": "Constitutional Surface Governance",
+  "classification": "Governance Synchronization",
+  "bounded_surface": true,
+  "implementation_strategy": "single_surface_mutation",
+  "governance_scope": {
+    "directives": [
+      "EXEC-DIR-EOS-011",
+      "EXEC-DIR-EOS-012",
+      "EXEC-DIR-EOS-013"
+    ],
+    "constitutional_root": "EOS-CON-000"
+  },
+  "deliverables": [
+    "Constitutional synchronization package",
+    "Governance certification",
+    "Relationship synchronization",
+    "Evidence manifest"
+  ],
+  "runtime_mutation": false,
+  "application_mutation": false,
+  "git_operations": false
+}

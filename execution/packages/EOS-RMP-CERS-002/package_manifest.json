@@ -1,0 +1,17 @@
+{
+  "authority": "EOS-RMP-CERS-002",
+  "status": "INITIALIZED",
+  "repository": "Lambsbook-Open-Brain",
+  "repository_scope": "Governance Synchronization",
+  "mutation_scope": [
+    "governance",
+    "execution",
+    "09-workflows"
+  ],
+  "runtime_mutation": false,
+  "application_mutation": false,
+  "git_operations": false,
+  "builder_compatible": true,
+  "builder_repository": "Main Application Repository",
+  "package_state": "scaffold_initialized"
+}
