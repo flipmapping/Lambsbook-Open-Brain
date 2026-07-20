@@ -1,0 +1,9 @@
+{
+  "FAB-EOS-PUBLICATION-001": {
+    "status": "ACTIVE"
+  },
+  "PRG-001": {
+    "status": "ACTIVE",
+    "role": "constitutional publication gate"
+  }
+}
