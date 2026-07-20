@@ -1,0 +1,19 @@
+{
+  "FTB-001": {
+    "status": "Founder Certification"
+  },
+  "FTB-003": {
+    "status": "Architecture Freeze"
+  },
+  "MEX-001": {
+    "canonical": true,
+    "certified": true,
+    "architectural_state": "FROZEN"
+  },
+  "Product Materialization": {
+    "status": "ACTIVE"
+  },
+  "MEX-EXEC-001": {
+    "role": "sole implementation authority"
+  }
+}
